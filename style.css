@@ -302,35 +302,54 @@ div#left dl dd span {
 	color: #b5b3b3;
 	margin-right: 15px;
 }
+/* ========================================
+    reservationメイン画像用
+========================================= */
+div#reservationmainimage {
+	width: 950px;
+	height: 220px;
+	margin: 10px 0px 10px 0px;
+}
 
 /* ========================================
     コンタクトページ
 ========================================= */
+
+div#left h4 {
+	font-size: 17px;
+	font-weight: normal;
+	color: #000000;
+	border-left: 5px solid #4f4f4f;
+	padding-left: 10px;
+	letter-spacing: 5px;
+}
+
 p#contact_text {
-	color: #927e7a;
+	color: #4f4f4f;
 	font-size: 12px;
 	line-height: 18px;
-	background-color: #ffefea;
+	background-color: #cbecf2;
 	padding: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 
 td.form_title {
 	width: 131px;
 	height: 32px;
 	font-size: 15px;
-	color: #734339;
+	color: #4f4f4f;
 	vertical-align: top;
 }
 
 td.form_title label {
-	font-weight: bold;
+	font-weight: normal;
 }
 
 td.form_contents {
-	font-size: 13px;
-	color: #a6a6a6;
+	font-size: 12px;
+	color: #4f4f4f;
 }
 
 td.form_contents input#form_name,
@@ -357,16 +376,47 @@ p#submit {
 }
 
 p#submit input {
-	background-color: #325a37;
+	background-color: #4f4f4f;
 	border: none;
-	font-size: 18px;
+	font-size: 15px;
 	color: #fff;
-	font-weight: bold;
+	font-weight: normal;
 	width: 136px;
 	height: 40px;
+	border-radius:10px 10px 10px 10px;
 }
 
 p#submit input:hover {
 	cursor: pointer;
 	opacity: 0.8;
 }
+
+/* ライトcontact */
+div#right-contact {
+	width: 360px;
+	height: 198px;
+	float: left;
+}
+
+div#right-contact ul li {
+	line-height: 60px;
+	margin-bottom: 20px;
+	background-color: #4f4f4f;
+	border-radius:10px 10px 10px 10px;
+}
+
+div#right-contact ul li a {
+	width: 50%;
+	height: 60px;
+	display: block;
+	font-size: 18px;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+	padding-left: 100px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+
+
