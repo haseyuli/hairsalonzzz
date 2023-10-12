@@ -155,13 +155,13 @@ div#left {
 	padding: 10px;
 }
 
-div#left h2,
-div#left h3 {
+div#left h2 {
 	font-size: 17px;
 	font-weight: normal;
 	color: #000000;
 	border-left: 5px solid #4f4f4f;
 	padding-left: 10px;
+	letter-spacing: 5px;
 }
 
 div#left ul {
@@ -242,39 +242,44 @@ footer {
 }
 
 
-
+/* ========================================
+    menuメイン画像用
+========================================= */
+div#menumainimage {
+	width: 950px;
+	height: 220px;
+	margin: 10px 0px 10px 0px;
+}
 
 /* ========================================
     メニュー一覧
 ========================================= */
-h2#heading {
-	background: url(images/title.jpg);
-	width: 925px;
-	height: 70px;
-	border: 5px solid #fff;
-	margin-bottom: 20px;
-	font-size: 27px;
-	font-weight: bold;
-	color: #2f5734;
-	line-height: 70px;
-	padding-left: 23px;
+
+div#left h3 {
+	font-size: 17px;
+	font-weight: normal;
+	color: #000000;
+	border-left: 5px solid #4f4f4f;
+	padding-left: 10px;
+	letter-spacing: 5px;
 }
 
 div#left dl {
-	margin-top: 11px;
+	margin-top: 10px;
 }
 
 div#left dl dt {
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: normal;
-	color: #734339;
+	color: #4f4f4f;
+	margin-left: 20px;
 }
 
 div#left dl dd {
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: normal;
-	color: #927e7a;
-	margin-left: 10px;
+	color: #4f4f4f;
+	margin-left: 40px;
 	margin-bottom: 20px;
 }
 
@@ -282,8 +287,21 @@ div#left dl dd:last-child {
 	margin-bottom: 0;
 }
 
+div#left {
+	width: 555px;
+	height: auto;
+	background-color: #fff;
+	float: left;
+	margin-right: 20px;
+	padding: 10px;
+}
 
-
+div#left dl dd span {
+	font-size: 12px;
+	font-weight: normal;
+	color: #b5b3b3;
+	margin-right: 15px;
+}
 
 /* ========================================
     コンタクトページ
